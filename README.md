@@ -24,13 +24,13 @@
 
 ```
 第一次使用
-git init
-mkdir woniu
-echo  print 123 >> woniu/zuoye.py
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/51reboot/actual_08_homework.git
-git push -u origin master
+git clone https://github.com/51reboot/actual_05_homework_mage.git
+
+更新本地代码
+git pull
+
+查看代码状态
+git status
 
 后面添加代码，只需要下面三行即可
 git add .
